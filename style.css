@@ -1,0 +1,313 @@
+.deleteContent {
+  font-size: xx-large;
+  color: transparent;
+  /* uncomment the below line to get rid of the dummy place holders*/
+  display: none;
+}
+
+.header {
+  background-color: black;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 10px;
+  align-items: center;
+}
+
+.navListClass {
+  display: flex;
+  list-style-type: none;
+  gap: 3em;
+}
+
+.navListClass li {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.imageAndNavBar {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  /* border: 1px solid red; */
+  width: 8em; /*Remove this once you add the logo*/
+}
+
+.body {
+  display: flex;
+  width: 100%;
+}
+
+.leftSidebar {
+  width: 30%;
+  background-color: #2584a1;
+  display: flex;
+  color: #fff;
+  border-color: #fff;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+}
+
+.home-sidebar-profile-additional {
+  width: 77%;
+  display: flex;
+  margin-top: 8px;
+  padding: 0 30px;
+  justify-content: space-between;
+}
+.home-sidebar-profile-additional-single-ttle {
+  font-size: 10px;
+  line-height: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.home-sidebar-profile-additional-single-ttle-value {
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 2px;
+}
+.rightBar {
+  width: 75%;
+  background-color: #eeeff0;
+  height: 100vh;
+  display: flex;
+  overflow: scroll;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.home-sidebar-profile-image {
+  width: 176px;
+  height: 176px;
+  border-radius: 9999px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  margin-top: 38px;
+}
+.home-sidebar-profile-name {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  margin-top: 16px;
+  text-align: center;
+}
+.home-sidebar-profile-title {
+  font-size: 21px;
+  line-height: 24px;
+  height: 48px;
+  margin-top: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.home-sidebar {
+  /* background: 0 0 !important; */
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-end; */
+}
+.home-sidebar-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* padding: 0px 40px; */
+  width: 100%;
+  color: #fff;
+  border-color: #fff;
+}
+
+.home-sidebar-profile-link {
+  text-decoration: none;
+  text-align: center;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.142857px;
+  padding: 8px 32px;
+  border: 1px solid #000;
+  border-radius: 9999px;
+  color: #000;
+  transition: background-color 175ms, color 175ms, border-color 175ms;
+  margin-top: 24px;
+  color: #fff;
+  border-color: #fff;
+}
+.home-sidebar-progress {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  margin-bottom: 44px;
+  padding: 0 40px;
+  width: 100%;
+  max-width: 390px;
+}
+.home-sidebar-progress-title {
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 700;
+  color: #fff;
+  border-color: #fff;
+}
+.home-sidebar-progress-subtitle {
+  color: #fff;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 5px;
+}
+.home-sidebar-progress-item-link {
+  text-decoration: none;
+}
+.home-sidebar-progress-item {
+  margin-top: 16px;
+  position: relative;
+  left: 0;
+  transition: left 175ms;
+  width: 85%;
+}
+.home-sidebar-progress-item-content {
+  border: 1px solid #fff;
+  background-color: #fff;
+  padding: 16px;
+  margin-top: 16px;
+  position: relative;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  transition: left 175ms, top 175ms;
+}
+.home-sidebar-progress-item-title {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 700;
+  min-height: 32px;
+  overflow: hidden;
+  color: black;
+}
+.home-sidebar-progress-item-row {
+  display: flex;
+  align-items: flex-end;
+}
+.home-sidebar-progress-item-graph {
+  position: relative;
+  margin-top: 8px;
+  height: 12px;
+  flex-grow: 1;
+  overflow: hidden;
+}
+.home-sidebar-progress-item-graph-filled {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90.05deg,
+    #f48532 0.05%,
+    #d25573 33.6%,
+    #62508b 60.82%,
+    #2286a2 99.95%
+  );
+  opacity: 0.8;
+}
+.home-sidebar-progress-item-graph-empty {
+  height: 100%;
+  background-color: #c5cace;
+  position: absolute;
+  top: 0;
+  width: calc(100% + 1px);
+}
+.home-sidebar-progress-item-arrow {
+  margin-left: 10px;
+  margin-right: -6px;
+  margin-bottom: -8px;
+  transition: margin-left 175ms, margin-right 175ms;
+  height: 20px;
+  width: 19px;
+}
+.home-landing {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5em 2em;
+}
+.home-landing-title {
+  font-size: 72px;
+  line-height: 84px;
+  margin-bottom: 58px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.home-landing .yxt-SearchBar-wrapper {
+  flex-grow: 0;
+  margin-right: 0 !important;
+  max-width: 750px !important;
+  width: 75%;
+}
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+.main {
+  width: 70%;
+  margin: 20px auto;
+}
+.search {
+  border-radius: 25px !important;
+}
+
+.home-landing-links {
+  margin-top: 25px;
+  display: flex;
+  width: 70%;
+  justify-content: space-around;
+}
+.home-landing-link-content {
+  text-decoration: none;
+  text-align: center;
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.142857px;
+  padding: 8px 32px;
+  border: 1px solid #000;
+  border-radius: 9999px;
+  color: #000;
+  transition: background-color 175ms, color 175ms, border-color 175ms;
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  line-height: 19px;
+  width: 190px;
+}
+.home-arrow {
+  content: url(assets/img/icons8-down-24.png);
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 175ms;
+  border: none;
+  height: 3em;
+  width: 4em;
+}
